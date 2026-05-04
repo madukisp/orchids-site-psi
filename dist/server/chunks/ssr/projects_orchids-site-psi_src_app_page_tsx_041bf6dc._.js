@@ -825,7 +825,7 @@ function Hero() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$projects$2f$orchids$2d$site$2d$psi$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                 "data-orchids-id": "src/app/page.tsx:225:10",
                                 "data-orchids-name": "h1",
-                                className: "font-display text-5xl md:text-6xl font-semibold text-[#2c2c2c] leading-tight mb-6 animate-fade-in-up animate-delay-100",
+                                className: "font-display text-4xl md:text-5xl lg:text-6xl font-semibold text-[#2c2c2c] leading-tight mb-6 animate-fade-in-up animate-delay-100",
                                 children: [
                                     "Encontre seu",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$projects$2f$orchids$2d$site$2d$psi$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
@@ -1450,12 +1450,12 @@ function Approach() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$projects$2f$orchids$2d$site$2d$psi$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             "data-orchids-id": "src/app/page.tsx:424:10",
                             "data-orchids-name": "div",
-                            className: "grid sm:grid-cols-4 gap-6 relative",
+                            className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-6 relative",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$projects$2f$orchids$2d$site$2d$psi$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     "data-orchids-id": "src/app/page.tsx:425:12",
                                     "data-orchids-name": "div",
-                                    className: "hidden sm:block absolute top-8 left-[12.5%] right-[12.5%] h-px bg-[#e0d8ce]"
+                                    className: "hidden lg:block absolute top-8 left-[12.5%] right-[12.5%] h-px bg-[#e0d8ce]"
                                 }, void 0, false, {
                                     fileName: "[project]/projects/orchids-site-psi/src/app/page.tsx",
                                     lineNumber: 425,
@@ -1906,7 +1906,7 @@ function Instagram() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$projects$2f$orchids$2d$site$2d$psi$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         "data-orchids-id": "src/app/page.tsx:571:8",
                         "data-orchids-name": "div",
-                        className: "grid grid-cols-1 sm:grid-cols-3 gap-6 justify-items-center",
+                        className: "grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-6 justify-items-center",
                         children: posts.map((url, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$projects$2f$orchids$2d$site$2d$psi$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 "data-map-index": i,
                                 "data-orchids-id": "src/app/page.tsx:573:12@posts",
@@ -2579,7 +2579,7 @@ function Contact() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$projects$2f$orchids$2d$site$2d$psi$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         "data-orchids-id": "src/app/page.tsx:775:16",
                                         "data-orchids-name": "div",
-                                        className: "grid grid-cols-2 gap-4",
+                                        className: "grid grid-cols-1 sm:grid-cols-2 gap-4",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$projects$2f$orchids$2d$site$2d$psi$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 "data-orchids-id": "src/app/page.tsx:776:18",

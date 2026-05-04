@@ -222,7 +222,7 @@ function Hero() {
           <span className="inline-block text-xs font-medium tracking-widest uppercase text-[#8faa8b] bg-[#8faa8b]/12 px-4 py-1.5 rounded-full mb-6 animate-fade-in-up">
             Psicóloga & Arteterapeuta · CRP 06/83268
           </span>
-          <h1 className="font-display text-5xl md:text-6xl font-semibold text-[#2c2c2c] leading-tight mb-6 animate-fade-in-up animate-delay-100">
+          <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-semibold text-[#2c2c2c] leading-tight mb-6 animate-fade-in-up animate-delay-100">
             Encontre seu
             <br />
             <span className="text-[#8faa8b]">caminho</span> com
@@ -421,8 +421,8 @@ function Approach() {
           <h3 className="font-display text-2xl font-semibold text-[#2c2c2c] text-center mb-12">
             Como é o processo?
           </h3>
-          <div className="grid sm:grid-cols-4 gap-6 relative">
-            <div className="hidden sm:block absolute top-8 left-[12.5%] right-[12.5%] h-px bg-[#e0d8ce]" />
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-6 relative">
+            <div className="hidden lg:block absolute top-8 left-[12.5%] right-[12.5%] h-px bg-[#e0d8ce]" />
             {[
               { step: "01", title: "Conversa Inicial", desc: "Um primeiro encontro gratuito para nos conhecermos e entender suas necessidades." },
               { step: "02", title: "Avaliação", desc: "Juntos definimos objetivos e formato mais adequado ao seu momento de vida." },
@@ -568,7 +568,7 @@ function Instagram() {
           <p className="text-[#6b6560] text-sm">Conteúdo sobre psicologia, arteterapia e autoconhecimento</p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 justify-items-center">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-6 justify-items-center">
           {posts.map((url, i) => (
             <div
               key={i}
@@ -772,7 +772,7 @@ function Contact() {
                     placeholder="Seu nome completo"
                   />
                 </div>
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
                     <label className="block text-xs font-semibold text-[#6b6560] uppercase tracking-wider mb-1.5">
                       E-mail
