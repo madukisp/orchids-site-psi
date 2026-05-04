@@ -136,15 +136,13 @@ function Nav() {
     { label: "Sobre", href: "#sobre" },
     { label: "Abordagem", href: "#abordagem" },
     { label: "Serviços", href: "#servicos" },
-    { label: "Depoimentos", href: "#depoimentos" },
     { label: "Contato", href: "#contato" },
   ];
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? "bg-[#faf7f2]/95 backdrop-blur-md shadow-sm" : "bg-transparent"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? "bg-[#faf7f2]/95 backdrop-blur-md shadow-sm" : "bg-transparent"
+        }`}
     >
       <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         <a href="#" className="font-display text-xl font-semibold text-[#2c2c2c] tracking-tight">
@@ -458,7 +456,7 @@ function Services() {
       cta: "Saiba mais",
     },
     {
-      img: "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=600&q=80",
+      img: "/arteterapia.jpeg",
       tag: "Arte",
       title: "Arteterapia",
       desc: "Sessões que utilizam diferentes linguagens artísticas como mediadores terapêuticos para acesso a conteúdos internos.",
@@ -466,7 +464,7 @@ function Services() {
       cta: "Saiba mais",
     },
     {
-      img: "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=600&q=80",
+      img: "/grupo.jpeg",
       tag: "Grupos",
       title: "Grupos para Autoconhecimento",
       desc: "Encontros em grupo com proposta terapêutica e criativa, explorando temas que nos conectam enquanto seres humanos.",
@@ -474,7 +472,7 @@ function Services() {
       cta: "Ver agenda",
     },
     {
-      img: "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=600&q=80",
+      img: "/atendimento.jpeg",
       tag: "Online",
       title: "Atendimento Online",
       desc: "A mesma qualidade e presença do atendimento presencial, na comodidade do seu espaço.",
@@ -534,83 +532,6 @@ function Services() {
                 >
                   {s.cta} <IconArrow />
                 </a>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
-// ─── Testimonials ───────────────────────────────────────────────────────────
-function Testimonials() {
-  const testimonials = [
-    {
-      name: "Ana R.",
-      role: "Psicoterapia individual",
-      text: "Encontrei na Zetha um espaço genuíno de acolhimento. A combinação de psicoterapia com arteterapia transformou minha forma de me relacionar comigo mesma.",
-      avatar: "A",
-      color: "#8faa8b",
-    },
-    {
-      name: "Marcos S.",
-      role: "Arteterapia",
-      text: "Nunca imaginei que pintar poderia me ajudar a entender emoções que eu não conseguia expressar em palavras. O processo foi revelador e libertador.",
-      avatar: "M",
-      color: "#c9876a",
-    },
-    {
-      name: "Carla M.",
-      role: "Grupo terapêutico",
-      text: "Os grupos de autoconhecimento são um presente. Um espaço seguro para me descobrir junto de outras pessoas, com muita leveza e profundidade.",
-      avatar: "C",
-      color: "#a0785a",
-    },
-    {
-      name: "Beatriz L.",
-      role: "Atendimento online",
-      text: "A qualidade do atendimento online é incrível. Me sinto completamente presente e acolhida, mesmo à distância. Zetha tem uma capacidade única de criar conexão.",
-      avatar: "B",
-      color: "#6b8a66",
-    },
-  ];
-
-  return (
-    <section id="depoimentos" className="py-24 bg-[#faf7f2]">
-      <div className="max-w-6xl mx-auto px-6">
-        <div className="text-center max-w-2xl mx-auto mb-16">
-          <span className="text-xs font-medium tracking-widest uppercase text-[#8faa8b] bg-[#8faa8b]/12 px-4 py-1.5 rounded-full">
-            Depoimentos
-          </span>
-          <h2 className="font-display text-4xl font-semibold text-[#2c2c2c] mt-5 mb-4">
-            O que dizem por aqui
-          </h2>
-          <p className="text-[#6b6560]">
-            Histórias reais de transformação e cuidado.
-          </p>
-        </div>
-
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {testimonials.map((t, i) => (
-            <div key={i} className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
-              <div className="flex gap-0.5 mb-4">
-                {[1,2,3,4,5].map((s) => (
-                  <span key={s} className="text-[#c9876a]"><IconStar /></span>
-                ))}
-              </div>
-              <p className="text-sm text-[#6b6560] leading-relaxed mb-5 italic">"{t.text}"</p>
-              <div className="flex items-center gap-3">
-                <div
-                  className="w-10 h-10 rounded-full flex items-center justify-center text-white font-semibold text-sm flex-shrink-0"
-                  style={{ backgroundColor: t.color }}
-                >
-                  {t.avatar}
-                </div>
-                <div>
-                  <p className="font-semibold text-sm text-[#2c2c2c]">{t.name}</p>
-                  <p className="text-xs text-[#6b6560]">{t.role}</p>
-                </div>
               </div>
             </div>
           ))}
@@ -1012,7 +933,6 @@ export default function Home() {
       <About />
       <Approach />
       <Services />
-      <Testimonials />
       <Instagram />
       <CTABanner />
       <Contact />
